@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/ico" href="../img/favicon.ico.jpg">
+    <title>Brandon Hatch</title>
+    <link href="../css/main.css" rel="stylesheet" />
+    <script src="../js/fanmail.js"></script>
+</head>
+
+<body>
+    <!-- About me and paragraph on semester-->
+    <h1>Brandon Hatch</h1>
+    <img src="../img/trout boy.jpg" width="150" height="200" />
+    <p>I love fishing</p>
+    <p>
+        I hope to be able to expand my knowledge of web development this semester in IS 413. 
+        <br />I am excited to learn the C Sharp coding language, which will add to my resume. 
+        <br />Professor Hilton is a great professor and I'm sure if I apply what I learn in this class
+        then I will have an enjoyable and insightful experience this semester.
+    </p>
+    <br />
+    <!-- List of interesting jobs-->
+    <h2>Jobs I am interested in</h2>
+    <ul class="jobs">
+        <li>1: Information Data Analysis</li>
+        <li>2: Cybersecurity</li>
+        <li>3: Web Developement</li>
+    </ul>
+    <br />
+    <!-- Grade calculating form-->
+    <h2>Grade Calculator</h2>
+    <p>Please enter your percentage for each of the categories below</p>
+    <form action="#" method="get" onsubmit="return false">
+        <label> Assignments: </label>
+        <input id="assignments" />
+        <br />
+        <label> Group Project: </label>
+        <input id="groupProject" />
+        <br />
+        <label> Quizzes: </label>
+        <input id="quizzes" />
+        <br />
+        <label> Exams: </label>
+        <input id="exams" />
+        <br />
+        <label> Intex: </label>
+        <input id="intex" />
+        <br /><br />
+        <button id="submitButton" onclick="CalculateGrade()">Calculate Grade</button>
+    </form>
+
+    <!-- where the total grade and percentage is added from js -->
+    <p id="Grade"></p>
+
+</body>
+    </html>
